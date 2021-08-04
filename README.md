@@ -1,5 +1,4 @@
 # DoguinhoHotel-NLW
-Site Responsivo, simples porem funcional.
 
 ## 🚀 Tecnologias
 
