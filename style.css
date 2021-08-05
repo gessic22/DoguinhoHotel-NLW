@@ -649,28 +649,125 @@ footer .social a:hover {
   }
 }
 
-/* large devices: 1023 > */
-@media (min-width: 1023px) {
-  :root {
-    --title-font-size: 3rem;
-  }
-}
-/* large devices: 992 > */
-@media (min-width: 992px) {
-  :root {
-    --title-font-size: 2.25rem;
-    --subtitle-font-size: 1.125rem;
-  }
-}
+/* large devices: 993 > */
 /* medium devices: 767 > */
 @media (min-width: 767px) {
-  :root {
-    --title-font-size: 1.875rem;
+  /*--------reusable classes--------*/
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section {
+    padding: 6.3rem 0;
+  }
+
+  .section header,
+  #testimonials header {
+    max-width: 20rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button {
+    height: 2rem;
+  }
+
+  /*--------navigation--------*/
+  nav .menu {
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+  }
+
+  nav .menu ul {
+    display: flex;
+    gap: 1.97rem;
+  }
+
+  nav .menu ul li a.title {
+    font: 400 .8rem var(--body-font);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  nav .menu ul li a.title.active {
+    font-weight: bold;
+    -webkit-font-smoothing: auto;
+  }
+
+  nav .icon-menu {
+    display: none;
+  }
+
+  /*--------layout--------*/
+  main {
+    margin-top: var(--header-height);
+  }
+
+  /*--------home--------*/
+  #home .container {
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  #home .image {
+    order: 1;
+  }
+
+  #home .text {
+    order: 0;
+    max-width: 15.12rem;
+    text-align: left;
+  }
+
+  /*--------about--------*/
+  #about .container {
+    margin: 0 auto;
+    grid-auto-flow: column;
+  }
+
+  /*--------services--------*/
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .card {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /*--------testimonials--------*/
+  #testimonials .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*--------contact--------*/
+  #contact .container {
+    grid-auto-flow: column;
+  }
+
+  #contact .text {
+    max-width: 25rem;
+    align-items: center;
+  }
+
+  /*--------footer--------*/
+  footer.section {
+    padding: 3.75rem 0;
+  }
+
+  footer .container {
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer .logo {
+    font-size: 2.25rem;
   }
 }
+
 /* small devices: 280 > */
-@media (min-width: 280px) {
-  :root {
-    --title-font-size: 1.5rem;
-  }
-}
+
