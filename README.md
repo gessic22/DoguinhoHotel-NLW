@@ -29,7 +29,7 @@ DoguinhoHotel é uma página institucional no formato One Page, responsiva, para
 
 ## ⏫ Updates
 
-Bug do Scroll x aparecendo no slider de depoimentos (resolvido por @erikfritas):
+Bug do Scroll x aparecendo no slider de depoimentos (resolvido por [@erikfritas](https://github.com/erikfritas)):
 - Para remover este bug, foi necessário apenas modificar o #testimonials, adicionando mais duas linhas:
 ```css
 #testimonials{
