@@ -26,3 +26,16 @@ Utilitários
 ## 💻 Projeto
 
 DoguinhoHotel é uma página institucional no formato One Page, responsiva, para usar em diversos tipos de micro, pequena e média empresas. Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoimentos, Contato e Footer
+
+## ⏫ Updates
+
+Bug do Scroll x no slider de depoimentos (resolvido por @erikfritas):
+- Para remover este bug, foi necessário apenas modificar o #testimonials, adicionando mais duas linhas:
+```css
+#testimonials{
+  ...
+  width: 100%;
+  overflow-x: hidden;
+}
+```
+
