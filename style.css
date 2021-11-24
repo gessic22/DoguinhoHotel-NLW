@@ -371,7 +371,9 @@ nav.show div.icon-close {
 /*====  TESTIMONIALS ============================ */
 #testimonials {
   background: white;
-}
+    width: 100%;
+    overflow-x: hidden;
+  }
 
 #testimonials .container {
   margin-left: 0;
@@ -421,6 +423,11 @@ nav.show div.icon-close {
 }
 
 /*====  SWIPER ============================ */
+.swiper {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .swiper-slide {
   height: auto;
   padding: 4rem 1rem;
