@@ -371,9 +371,15 @@ nav.show div.icon-close {
 /*====  TESTIMONIALS ============================ */
 #testimonials {
   background: white;
+<<<<<<< HEAD
     width: 100%;
     overflow-x: hidden;
   }
+=======
+  width: 100%;
+  overflow-x: hidden;
+}
+>>>>>>> 95eac914ac96648c8a51f9dcf3e16463cc8c2db6
 
 #testimonials .container {
   margin-left: 0;
